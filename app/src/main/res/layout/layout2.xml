@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="El Sol"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compara dos planetas: "/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+        <Spinner
+            android:id="@+id/spin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="nombre" />
+
+    <TextView
+        android:text="diametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diametro" />
+
+    <TextView
+        android:text="distancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/distancia" />
+
+    <TextView
+        android:text="densidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/densidad" />
+
+    <TextView
+        android:text="nombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre2" />
+
+    <TextView
+        android:text="diametro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diametro2" />
+
+    <TextView
+        android:text="distancia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/distancia2" />
+
+    <TextView
+        android:text="densidad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/densidad2" />
+</LinearLayout>
